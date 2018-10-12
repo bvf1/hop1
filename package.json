@@ -1,0 +1,22 @@
+{
+  "name": "hop1",
+  "version": "0.1.0",
+  "description": "Hópverkefni 1 fyrir vefforitun 1 2018",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files index.html styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvf1/hop1.git"
+  },
+  "author": "Bára",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bvf1/hop1/issues"
+  },
+  "homepage": "https://github.com/bvf1/hop1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.0"
+  }
+}
