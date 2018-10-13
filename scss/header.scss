@@ -1,0 +1,45 @@
+
+
+@mixin row($flex-direction: row) {
+    display: flex;
+    flex-direction: $flex-direction;
+    margin-left: -10px;
+    margin-right: -10px;
+   
+}
+
+@mixin col($width: 100%) {
+    
+    padding-left: 10px;
+    padding-right: 10px;
+
+    width: $width;
+}
+
+
+
+@mixin centered() {
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.header {
+   
+
+
+    &__nav {
+        @include row;
+    }
+
+    &__pages {
+      display: flex;
+      @include col;
+      @include centered;
+
+    }
+
+    &__basket {
+        @include col;
+        flex: 1;
+    }
+}
