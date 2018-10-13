@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+    &__headlines {
+        padding-right: auto;
+        padding-left: auto;
+    }
+    &__nav {
+        display: inline-flex;
+    }
+    
+    &__pages {
+       display: flex;
+        //justify-content: center;
+    }
+    &__basket {
+        align-self: flex-end;
+    }
+}
