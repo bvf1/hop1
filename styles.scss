@@ -18,21 +18,11 @@ html { /* stylelint-disable-line */
   // TODO fleiri grunn stillingar
   padding-left: 20px;
   padding-right: 20px;
-<<<<<<< HEAD
-=======
-  
->>>>>>> vers
 }
-
-
 
 // TODO sækja allar sass skrár
 //@import "scss/...";
 
-<<<<<<< HEAD
-@import "scss/header"
-=======
-@import "scss/nav";
-
 @import "scss/header";
->>>>>>> vers
+
+//@import "scss/nav";
