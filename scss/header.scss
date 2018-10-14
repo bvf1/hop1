@@ -1,21 +1,53 @@
+@mixin row($flex-direction: row) {
+    display: flex;
+    flex-direction: $flex-direction;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+@mixin col($width: 100%) {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: $width;
+}
+
+@mixin centered() {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .header {
+    //@include row(column);
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    &__headlines {
-        padding-right: auto;
-        padding-left: auto;
-    }
-    &__nav {
-        display: inline-flex;
-    }
+    margin-left: -10px;
+    margin-right: -10px;    
+   // padding-left: 10px;
+   // padding-right: 10px;
+  
     
-    &__pages {
-       display: flex;
-        //justify-content: center;
-    }
-    &__basket {
-        align-self: flex-end;
-    }
+      &__nav {
+        width: 100%;
+        
+        display: flex;
+        margin-left: -10px;
+        margin-right: -10px;
+         // @include col
+          //@include row;
+
+      }
+      &__pages {
+          @include col(50%)
+          margin-left: 25%;
+          display: flex;
+          justify-content: center;
+       }
+      &__basket {
+         // @include col(33.33%)
+         width: 25%;
+         padding-right: 10px;
+         padding-left: 10px;
+       //  align-items: flex-end;
+      }    
 }
