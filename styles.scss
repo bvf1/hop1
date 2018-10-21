@@ -16,8 +16,7 @@ html { /* stylelint-disable-line */
   overflow-x: hidden;
 
   // TODO fleiri grunn stillingar
-  padding-left: 20px;
-  padding-right: 20px;
+
 }
 
 // TODO sækja allar sass skrár
@@ -26,4 +25,5 @@ html { /* stylelint-disable-line */
 @import "scss/header";
 
 
-//@import "scss/nav";
+@import "scss/footer";
+

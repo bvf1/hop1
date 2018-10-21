@@ -1,0 +1,40 @@
+@mixin col($width: 100%) {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: $width;
+  }
+  
+  @mixin centered() {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.footer {
+  padding: 20px;
+  //width: 100%;
+  background-color: #cc9694;
+
+  &__boxes {
+    //padding-right: 20px;
+   // padding-left: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+  
+  &__box {
+    @include col(50%)
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  &__copyright {
+    width: 100%;
+    //padding: 10px auto;
+    //@include centered;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
