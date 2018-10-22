@@ -16,7 +16,12 @@ html { /* stylelint-disable-line */
   overflow-x: hidden;
 
   // TODO fleiri grunn stillingar
+}
 
+main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // TODO sækja allar sass skrár
@@ -24,6 +29,6 @@ html { /* stylelint-disable-line */
 
 @import "scss/header";
 
+@import "scss/start";
 
 @import "scss/footer";
-

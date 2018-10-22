@@ -10,14 +10,24 @@
   }
 
 .footer {
-  padding: 20px;
-  //width: 100%;
   background-color: #cc9694;
 
-  &__boxes {
-    //padding-right: 20px;
-   // padding-left: 20px;
+  &__container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 1200px){
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+     /* padding-left: 0;
+      padding-right: 0;*/
+    }
+  }
 
+  &__boxes {
+    margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
     margin-right: -10px;
@@ -31,10 +41,16 @@
   }
   
   &__copyright {
-    width: 100%;
-    //padding: 10px auto;
-    //@include centered;
-    margin-right: auto;
-    margin-left: auto;
+    align-self: center;
+    padding: 20px;
+  }
+
+  &__items {
+    color: #fcffd2;
+    line-height: 2;
+  }
+
+  &__headline {
+    line-height: 3;
   }
 }

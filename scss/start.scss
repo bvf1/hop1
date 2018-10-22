@@ -1,0 +1,11 @@
+.start {
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+
+  &__box {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+}
