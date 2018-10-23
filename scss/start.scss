@@ -1,11 +1,44 @@
+$vw: 70vw;
+
 .start {
   display: flex;
-  margin-left: -10px;
-  margin-right: -10px;
+  flex-wrap: wrap;
 
   &__box {
-    padding-left: 10px;
-    padding-right: 10px;
     width: 100%;
+    height: $vw;
+    font-size: 24px;
+
+    @media (min-width: 700px) {
+      width: 50%;
+      height: ($vw / 2);
+    }
+  }
+
+  &--padded {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  &__headline {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  &--warehouse {
+    background: url(/img/products.jpg) center;
+    background-size: cover;
+    //background-size: cover;
+  }
+
+  &--hands {
+    background-image: url(/img/team.jpg);
+    background-size: cover;
+  }
+
+  &--hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
   }
 }
