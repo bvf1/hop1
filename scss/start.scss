@@ -13,6 +13,13 @@ $vw: 70vw;
       width: 50%;
       height: ($vw / 2);
     }
+
+    @media (min-width: 700px){
+
+      &:nth-child(3) {
+        order: 2;
+      }
+    }
   }
 
   &--padded {
