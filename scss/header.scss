@@ -16,15 +16,15 @@ $gutter: 20px;
   &__container {
     display: flex;
     max-width: 1220px;
+    height: calc(100vh - 82vw);
     min-height: 120px;
-    height: calc(100vh - 40vw);
+    max-height: 250px;
    // padding: 20px;
     padding-right: $gutter;
     padding-left: $gutter;
     margin-right: -10px;
     margin-left: -10px;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
 
     @media (min-width: 1180px) {
@@ -35,8 +35,8 @@ $gutter: 20px;
   }
 
   &__headline {
-    height: 50%;
     font-size: 60px;
+    margin: auto;
   }
 
   &__nav {
@@ -45,6 +45,7 @@ $gutter: 20px;
     margin-right: -10px;
     margin-left: -10px;
     flex-direction: column;
+    justify-content: space-around;
 
     @media (min-width: 700px) {
       width: 100%;
@@ -54,8 +55,10 @@ $gutter: 20px;
     @media (min-width: 1200px) {
       //padding: 0;
     }
-    justify-content: space-around;
     align-items: center;
+    &:first-child {
+      background-color: rgb(204, 58, 197);
+    }
   }
 
   &__pages {
@@ -74,20 +77,11 @@ $gutter: 20px;
   }
 
   &__basket {
-    &:only-child {
-      font-size: 50px;
-    }
+    display: flex;
+    justify-content: flex-end;
 
-    //align-self: center;
     @media (min-width: 700px) {
-      //align-self: flex-end;
-      //@include col(calc(25% + 10px));
       width: 25%;
-
-      &:first-child {
-        font-size: 100px;
-        color: rgb(177, 52, 72);
-      }
     }
   }
 
