@@ -11,62 +11,11 @@
 
 .header {
   background-color: #afb281;
-
-  &__container {
-    height: 43vw;
-    padding: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-
-    @media (min-width: 700px) {
-      height: 20vh;
-    }
-  }
-
-  &__headline {
-    font-size: 60px;
-    height: 50%;
-  }
-
-  &__nav {
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  
-    @media (min-width: 700px) {
-      flex-direction: row;
-      width: 100%;
-    }
-  }
-
-  &__pages {
-    display: flex;
-    @media (min-width: 700px) {
-      width: 100%;
-     // @include col(75%);
-     // margin-left: 25%;
-    }
-  }
-
-  &__basket {
-    //align-self: center;
-    @media (min-width: 700px) {
-      align-self: flex-end;
-      @include col(25%);
-    }
-  }
-
-  &__nav-items {
-    padding-left: 10px;
-    padding-right: 10px;
-    //padding: 10px 0;
-    font-size: 21px;
-    @include centered;
-  }
+  display: flex;
+  max-width: 1200px;
+  height: 200px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
