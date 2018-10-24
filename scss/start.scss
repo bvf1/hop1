@@ -71,7 +71,7 @@ $vw: 70vw;
   &--warehouse {
     //order: 1;
     padding-right: 20px;
-    background: url(/img/products.jpg) center;
+   // background: url(/img/products.jpg) center;
     background-size: cover;
     object-fit: fill;
     //background-size: cover;
@@ -79,7 +79,7 @@ $vw: 70vw;
 
   &--hands {
     padding-right: 20px;
-    background-image: url(/img/team.jpg);
+    //background-image: url(/img/team.jpg);
     background-size: cover;
     object-fit: none;
     object-position: 120% 50%;
@@ -95,4 +95,9 @@ $vw: 70vw;
 button {
   height: 45px;
   width: 66.66%;
+}
+
+img {
+  width: 40px;
+  height: 40px;
 }

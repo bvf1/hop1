@@ -19,17 +19,16 @@ html { /* stylelint-disable-line */
 
 main {
   //margin: 0 auto;
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
+  max-width: 1220px;
+  margin: 0 auto;
   /*
   padding-right: 20px;
   padding-left: 20px;
-  @media (min-width: 1220px) {
+  */
+  @media (min-width: 1200px) {
     padding-right: 0;
     padding-left: 0;
   }
-  */
 }
 
 // TODO sækja allar sass skrár
@@ -37,6 +36,6 @@ main {
 
 @import "scss/header";
 
-@import "scss/start";
+@import "scss/start1";
 
 @import "scss/footer";

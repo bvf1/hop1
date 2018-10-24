@@ -1,0 +1,36 @@
+.image {
+  max-width: 100%;
+}
+
+.start {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  @media (min-width: 700px) {
+    flex-direction: row;
+  }
+
+  &__box {
+    width: 100%;
+
+    @media (min-width: 700px) {
+      width: 50%;
+      flex-direction: row;
+      padding: 10px;
+      &:nth-child(3) {
+        //order: 2;
+      }
+      &:nth-child(odd) {
+        background-color: black;
+        //padding: 0px 20px 20px;
+      }
+    }
+    @media (min-width: 1200px) {
+      
+    }
+
+  }
+
+  
+}
