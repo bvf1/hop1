@@ -32,7 +32,42 @@ main {
 	}
 }
 
-.staff--img {
-    width: 430px;
-    height: auto;
+$color_1: #000000;
+$background_color_1: #ffffff;
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
 }
+.staff-cards {
+	position: relative;
+	width: 50%;
+	&:hover {
+		.overlay {
+			opacity: 1;
+		}
+	}
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	trasition: .5s ease;
+	background-color: $background_color_1;
+}
+text {
+	color: $color_1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
