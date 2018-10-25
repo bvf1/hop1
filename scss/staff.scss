@@ -12,26 +12,6 @@ $font_family_2: 'Oswald', Verdana, sans-serif;
 		box-sizing: inherit;
 	}
 }
-
-html {
-	box-sizing: border-box;
-	font-family: $font_family_1;
-	font-size: 16px;
-}
-
-main {
-	margin: 0 auto;
-	max-width: 1220px;
-	/*padding-left: 20px;
-	padding-right: 20 px;
-	*/
-
-	@media (min-width: 1200px) {
-		padding-right: 0;
-		padding-left: 0;
-	}
-}
-
 $color_1: #000000;
 $background_color_1: #ffffff;
 .staff {
@@ -45,10 +25,14 @@ $background_color_1: #ffffff;
         width: 50%;
         &:hover {
 		.overlay {
-			opacity: 1;
-		}
-	}
+            opacity: 1;
+        }
+    }
 }
+}
+
+@media (min-width: 800px) {
+    
 }
 .overlay {
 	position: absolute;
