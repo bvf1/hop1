@@ -1,14 +1,4 @@
 $gutter: 20px;
-@mixin col($width: 100%) {
-  width: $width;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-@mixin centered() {
-  margin-right: auto;
-  margin-left: auto;
-}
 
 .footer {
   background-color: #cc9694;
@@ -16,7 +6,7 @@ $gutter: 20px;
   &__container {
     display: flex;
     max-width: 1200px;
-    padding: 20px;
+    padding: $gutter;
     flex-direction: column;
     @media (min-width: 1200px) {
       padding: $gutter 0;
