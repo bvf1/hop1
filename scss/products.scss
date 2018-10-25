@@ -5,9 +5,17 @@
 	margin-bottom: 20px;
 	padding: 5px;
 
-	&--img {
+	&__img {
 	  width: 390px;
-	  height: 385px;
+	  height: 385px;  
+	}
+	&__box {
+		border: 0.1 px;
+		border-color: #000000;
+	}
+	&__button {
+		border: 0.1 px;
+		border-color: #000000;
 	}
 }
 @media (min-width: 800px) {
