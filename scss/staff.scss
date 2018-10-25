@@ -4,13 +4,15 @@ $color_1: #000000;
 $background_color_1: #ffffff;
 
 .staff {
-	&__img { display: block;
-	width: 430px;
-	height: 641px;
-}
-&__card {
-  //framhlið 
-  position: absolute;
+	&__img { 
+		display: block;
+		width: 430px;
+		height: 641px;
+	}
+
+	&__card {
+  	//framhlið 
+  	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -19,13 +21,14 @@ $background_color_1: #ffffff;
 	opacity: 0;
 	transition: .5 ease;
 	background-color: $background_color_1;
-}
-& {
+	}
+
 	&:hover {
     //bakhlið 
     opacity: 1;
 	}
 }
+
 text {
 	color: $color_1;
 	position: absolute;
