@@ -1,37 +1,22 @@
-
-<<<<<<< HEAD
-
-=======
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: inherit;
-	&:before {
-		box-sizing: inherit;
-	}
-	&:after {
-		box-sizing: inherit;
-	}
-}
->>>>>>> 2a91a12f53cfc7500518301f61d5a74cbefedc6b
+$font_family_1: 'Open Sans', helvetica, arial, sans-serif;
+$font_family_2: 'Oswald', Verdana, sans-serif;
 $color_1: #000000;
 $background_color_1: #ffffff;
+
 .staff {
-    &--img {
+    &__img {
         display: block;
         width: 430px;
         height: 641px;
     }
-    &--cards {
-        position: relative;
-        width: 50%;
-        &:hover {
-		.overlay {
-            opacity: 1;
-        }
+    &__card {
+      //framhlið
+
     }
-}
-}
+    &:hover {
+      //bakhlið
+    }
+ 
 .overlay {
 	position: absolute;
 	top: 0;
