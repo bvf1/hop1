@@ -1,5 +1,19 @@
 
+<<<<<<< HEAD
 
+=======
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	&:before {
+		box-sizing: inherit;
+	}
+	&:after {
+		box-sizing: inherit;
+	}
+}
+>>>>>>> 2a91a12f53cfc7500518301f61d5a74cbefedc6b
 $color_1: #000000;
 $background_color_1: #ffffff;
 .staff {
@@ -13,10 +27,14 @@ $background_color_1: #ffffff;
         width: 50%;
         &:hover {
 		.overlay {
-			opacity: 1;
-		}
-	}
+            opacity: 1;
+        }
+    }
 }
+}
+
+@media (min-width: 800px) {
+    
 }
 .overlay {
 	position: absolute;
