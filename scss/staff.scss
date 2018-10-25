@@ -34,20 +34,21 @@ main {
 
 $color_1: #000000;
 $background_color_1: #ffffff;
-
-img {
-	display: block;
-	width: 100%;
-	height: auto;
-}
-.staff-cards {
-	position: relative;
-	width: 50%;
-	&:hover {
+.staff {
+    &--img {
+        display: block;
+        width: 430px;
+        height: 641px;
+    }
+    &--cards {
+        position: relative;
+        width: 50%;
+        &:hover {
 		.overlay {
 			opacity: 1;
 		}
 	}
+}
 }
 .overlay {
 	position: absolute;
@@ -58,8 +59,8 @@ img {
 	height: 100%;
 	width: 100%;
 	opacity: 0;
-	trasition: .5s ease;
-	background-color: $background_color_1;
+	transition: .5s ease;
+    background-color: $background_color_1;
 }
 text {
 	color: $color_1;
