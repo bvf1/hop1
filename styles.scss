@@ -17,14 +17,15 @@ $font_family_2: 'Oswald', Verdana, sans-serif;
 html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
+  font-family: $font_family_1;
+  font-size: 16px;
 
   // TODO fleiri grunn stillingar
 }
 
 main {
-  //margin: 0 auto;
-  max-width: 1220px;
   margin: 0 auto;
+  max-width: 1220px;
 
   /*
   padding-right: 20px;
@@ -36,12 +37,21 @@ main {
   }
 }
 
+h2 {
+	font-family: $font_family_2;
+	text-align: left;
+}
+
+h3 {
+	font-family: $font_family_2;
+}
+
 // TODO sækja allar sass skrár
 //@import "scss/...";
 
 @import "scss/header";
 
-@import "scss/start1";
+@import "scss/start";
 
 @import "scss/footer";
 
