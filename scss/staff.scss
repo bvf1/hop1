@@ -1,53 +1,34 @@
-
-<<<<<<< HEAD
-
-=======
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: inherit;
-	&:before {
-		box-sizing: inherit;
-	}
-	&:after {
-		box-sizing: inherit;
-	}
-}
->>>>>>> 2a91a12f53cfc7500518301f61d5a74cbefedc6b
+$font_family_1: 'Open Sans', helvetica, arial, sans-serif;
+$font_family_2: 'Oswald', Verdana, sans-serif;
 $color_1: #000000;
 $background_color_1: #ffffff;
-.staff {
-    &--img {
-        display: block;
-        width: 430px;
-        height: 641px;
-    }
-    &--cards {
-        position: relative;
-        width: 50%;
-        &:hover {
-		.overlay {
-            opacity: 1;
-        }
-    }
-}
-}
 
-@media (min-width: 800px) {
-    
-}
-.overlay {
-	position: absolute;
+.staff {
+	&__img { 
+		display: block;
+		width: 430px;
+		height: 641px;
+	}
+
+	&__card {
+  	//framhlið 
+  	position: absolute;
 	top: 0;
-	bottom: 0;
 	left: 0;
 	right: 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
-	transition: .5s ease;
-    background-color: $background_color_1;
+	transition: .5 ease;
+	background-color: $background_color_1;
+	}
+
+	&:hover {
+    //bakhlið 
+    opacity: 1;
+	}
 }
+
 text {
 	color: $color_1;
 	position: absolute;
