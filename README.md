@@ -15,6 +15,8 @@ npm run lint
 ````
 # Uppsetning verkefnis
 
+### ATH! Það virðist vera þannig að cart.html síðan sé að hafa einhver áhrif á products síðuna í keyrslu, til að fá hana til að keyra rétt þá þarf að kommenta //import "scss/cart"; í styles.scss skjalinu, importið er staðsett neðst í skjalinu en sjálft skjalið er að finna fremst í hop1 ATH!
+
 hop1: Verkefnið er sett upp í eina möppu sem inniheldur allar möppurnar og skrárnar okkar.
 Skrárnar sem hún inniheldur eru:
 - grid.css -gridið sem við fengum uppgefið frá kennara.
@@ -35,9 +37,9 @@ Við notuðum npm run dev til að keyra browser-sync og þýða scss skrárnar y
 
 ## Nemendur
 
-Arndís Lilja Þórisdóttir ath216@hi.is
-Ásdís Helga Hafdísardóttir ahh26@hi.is
-Bára Valgerður Friðriksdóttir bvf1@hi.is
+* Arndís Lilja Þórisdóttir ath216@hi.is
+* Ásdís Helga Hafdísardóttir ahh26@hi.is
+* Bára Valgerður Friðriksdóttir bvf1@hi.is
 
 ## Verkefnalýsing
 - Verkefnalýsing frá kennara
