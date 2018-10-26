@@ -20,6 +20,12 @@ $background_color_1: #ffffff;
 		box-shadow: -5px 5px 5px #aaa;
 	}
 }
+.staff__text {
+	text-align: center;
+	&h2 {
+		text-align: center;
+	}
+}
 .face {
 	position: absolute;
 	width: 100%;
@@ -32,6 +38,5 @@ $background_color_1: #ffffff;
 	box-sizing: border-box;
 	padding: 10px;
 	color: $color_1;
-	text-align: center;
 	background-color: $background_color_1;
-}
+	}
