@@ -13,7 +13,7 @@
   <body>
         <header class="header">
                 <div class="header__container">
-                  <h2 class="header__headline">Vöruhúsið</h2>
+                  <h2 class="header__headline">Karfa</h2>
                   <nav class="header__nav">
                     <div class="header__pages">
                             <a class="header__nav-items" href="../index.html">FORSÍÐA</a>
@@ -27,48 +27,53 @@
                 </div>
               </header>
               <main>
+                <div class="product-container">
                   <div class="cards">
-                  <section class="card">
-                  <div>
-                    <h2>Vörur í körfu</h2>
-                  </div>
-                  <div>
-                    <h2 class="card__headline">Ótrúlegt úr</h2>
-                    <div>
-                      <img class="card__img" src="../img/watch.jpg" alt="watch">
-                    </div>
-                    <p>Hvað er klukkan? þetta úr mun svara því hvenær sem er.</p>
-                    <p>99.900 kr.-</p>
-                    <label for="fjoldi">Fjöldi:<label>
-                      <input type="number" name="fjoldi" id="fjoldi" required>
-                    <button>Uppfæra</button>
-                    <button>Eyða úr körfu</button>
-                  </div>
-                </section>
+                    <section class="card">
+                      <div>
+                        <h2>Vörur í körfu</h2>
+                      </div>
+                      <div class="card__vorur">
 
-                <section class="card">
-                  <div>
-                    <h2>Hágæða heyrnatól</h2>
-                    <div>
-                      <img class="card__img" src="../img/headphones.jpg" alt="headphones">
-                    <p>Þú munt ekki heyra neitt nema hágæða tónlist með þessum hágæða heyrnatólum.  Höfum við minnst á að þau eru hágæða?</p>
-                    <p>39.999 kr.-</p>
-                    <label for="fjoldi">Fjöldi:<label>
-                      <input type="number" name="fjoldi" id="fjoldi" required>
-                    <button>Uppfæra</button>
-                    <button>Eyða úr körfu</button>
-                  </div>
-                </section>
+                        <img class="card__img" src="../img/watch.jpg" alt="watch">
 
+                        <div class="card__vara">
+                          <h2 class="card__headline">Ótrúlegt úr</h2>
+                          <p>Hvað er klukkan? þetta úr mun svara því hvenær sem er.</p>
+                          <h2>99.900 kr.-</h2>
+                          <label for="fjoldi">Fjöldi:<label>
+                            <input type="number" name="fjoldi" id="fjoldi" required>
+                            <button>Uppfæra</button>
+                            <button>Eyða úr körfu</button>
+                          </div>
 
-                  <div class="field">
-                    <section class="card__info">
-                      <h2>Sendingarupplýsingar</h2>
-                      <label for="name">Nafn:</label>
-                      <input type="text" name="name" id="name" required>
+                        </div>
+                      </section>
 
-                      <label for="address">Heimilisfang:</label>
-                      <input type="text" name="address" id="address" required>
+                      <section class="card">
+                        <div>
+                          <h2>Hágæða heyrnatól</h2>
+                          <div>
+                            <img class="card__img" src="../img/headphones.jpg" alt="headphones">
+                            <div class="card__vara">
+                        <p>Þú munt ekki heyra neitt nema hágæða tónlist með þessum hágæða heyrnatólum.  Höfum við minnst á að þau eru hágæða?</p>
+                        <h2>39.999 kr.-</h2>
+                        <label for="fjoldi">Fjöldi:<label>
+                          <input type="number" name="fjoldi" id="fjoldi" required>
+                          <button>Uppfæra</button>
+                          <button>Eyða úr körfu</button>
+                        </div>
+                      </div>
+                    </section>
+
+                    <div class="field">
+                      <section class="field__info">
+                        <h2>Sendingarupplýsingar</h2>
+                        <label for="name">Nafn:</label>
+                        <input type="text" name="name" id="name" required>
+
+                        <label for="address">Heimilisfang:</label>
+                        <input type="text" name="address" id="address" required>
 
                       <Label for="Postnr">Póstnúmer:</label>
                           <select id="Postnr">
@@ -256,10 +261,10 @@
                             <option value="">902 Vestmannaeyjum</option>
                           </select>
                         </section>
-                  </div>
 
-                  <div class="field">
-                    <section class="card__info">
+
+
+                    <section class="field__info">
                       <h2>Greiðsluupplýsingar</h2>
                       <label for="cardno">Kortanúmer:</label>
                       <input type="number" name="cardno" id="cardno" required>
@@ -267,6 +272,7 @@
                       <label for="cardholder">Korthafi:</label>
                       <input type="text" name="cardholder" id="cardholder" required>
 
+                      <div class="field__info__timi">
                       <label for="gildist">Gildistími:</label>
                         <label for="Month">Mán</label>
                         <select id="mán">
@@ -294,12 +300,15 @@
                           <option value="">2023</option>
                         </select>
                       </section>
-                      <section class="card__buy">
+                    </div>
+                        </div>
+                      <div class="pay">
+                      <section class="pay__buy">
                         <button>Kaupa</button>
                       </section>
                     </div>
                   </div>
-
+                </div>
 
                 </main>
     <footer class="footer">

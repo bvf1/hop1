@@ -1,29 +1,80 @@
-
-
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  flex-direction: column;
+
+  @media (min-width: 700px) {
+
+  }
+
 }
 
 .card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+
+  @media (min-width:700px) {
+    width: 50%;
+    flex-direction: row;
+
+  }
+
   &__img{
-    width: 100%;
+    width: 33%;
     height: auto;
+  }
+
+  &__vara{
+    width: 66%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 700px) {
+    flex-direction: row;
   }
 
   &__info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-direction: column;
+    margin-right: 5%;
+  }
+
+  &__info__timi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+.pay{
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 700px) {
+
   }
 
   &__buy {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-direction: column;
+    margin-right: auto;
   }
-
-
-
 }
