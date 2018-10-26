@@ -11,15 +11,22 @@ $vw: 70vw;
 }
 
 .start {
-  display: flex;
-  padding-top: $gutter;
-  padding-bottom: $gutter;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  
 
-  @media (min-width: 700px) {
-    flex-direction: row;
+  &__container {
+    display: flex;
+    padding-top: $gutter;
+    padding-bottom: $gutter;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    @media (min-width: 700px) {
+      flex-direction: row;
+    }
+    @media (min-width: 1200px) {
+      margin: -10px;
+    }
   }
 
   &__box {
@@ -65,10 +72,10 @@ $vw: 70vw;
         align-self: center;
         min-height: 0;
       }
-      @media (min-width: 1200px) {
+      @media (min-width: 1220px) {
         height: 230px;
         //align-self: center;
-        padding: 0 10px 20px;
+        padding-left: $gutter * 0.5;
       }
     }
   }
