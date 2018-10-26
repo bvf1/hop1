@@ -13,12 +13,12 @@
   <body>
     <header class="header">
         <div class="header__container">
-          <h2 class="header__headline">Vöruhúsið</h2>
+          <h2 class="header__headline">Karfa</h2>
           <nav class="header__nav">
             <div class="header__pages">
                     <a class="header__nav-items" href="../index.html">FORSÍÐA</a>
                     <a class="header__nav-items" href="pages/products.html">VÖRUR</a>
-                    <a class="header__nav-items" href="staff.html">STARFSFÓLK</a>   
+                    <a class="header__nav-items" href="staff.html">STARFSFÓLK</a>
             </div>
             <div class="header__basket">
               <p class="header__nav-items">Karfa (3)</p>
@@ -32,7 +32,7 @@
           <h2>Vörur í körfu</h2>
         </div>
         <div class="cards">
-          <section class="card">
+          <div class="card">
             <div>
               <img class="card__img" src="../img/watch.jpg" alt="watch">
             </div>
@@ -41,16 +41,16 @@
                 <h2 class="card__headline">Ótrúlegt úr</h2>
                 <p>Hvað er klukkan? þetta úr mun svara því hvenær sem er.</p>
               </section>
-              <section>
+              <div>
                 <p>99.900 kr.-</p>
-                <label for="fjoldi">Fjöldi:<label>
+                <label for="fjoldi">Fjöldi:</label>
                 <input type="number" name="fjoldi" id="fjoldi" required>
                 <button>Uppfæra</button>
                 <button>Eyða úr körfu</button>
-              </section>
+              </div>
             </div>
-          </section>
-          <section class="card">
+          </div>
+          <div class="card">
             <div>
               <img class="card__img" src="../img/headphones.jpg" alt="headphones">
             </div>
@@ -58,17 +58,17 @@
               <section>
                 <h2>Hágæða heyrnatól</h2>
                 <p>Þú munt ekki heyra neitt nema hágæða tónlist með þessum hágæða heyrnatólum.  Höfum við minnst á að þau eru hágæða?</p>
-              </section>
-              <section>
+
+              <div>
                 <p>39.999 kr.-</p>
-                <label for="fjoldi">Fjöldi:<label>
-                <input type="number" name="fjoldi" id="fjoldi" required>
+                <label for="fjoldi1">Fjöldi:</label>
+                <input type="number" name="fjoldi1" id="fjoldi1" required>
                 <button>Uppfæra</button>
                 <button>Eyða úr körfu</button>
-              </section>
             </div>
-              
             </section>
+          </div>
+          </div>
         </div>
         <div class="f">
             <div class="f__field">
@@ -76,10 +76,10 @@
                 <h2>Sendingarupplýsingar</h2>
                 <label for="name">Nafn:</label>
                 <input type="text" name="name" id="name" required>
-    
+
                 <label for="address">Heimilisfang:</label>
                 <input type="text" name="address" id="address" required>
-    
+
                 <Label for="Postnr">Póstnúmer:</label>
                     <select id="Postnr">
                       <option value="">-Velja póstnúmer-</option>
@@ -267,20 +267,20 @@
                     </select>
                   </section>
             </div>
-    
+
         <div class="f__field">
             <section class="f__field__info">
                 <h2>Greiðsluupplýsingar</h2>
                 <label for="cardno">Kortanúmer:</label>
                 <input type="number" name="cardno" id="cardno" required>
-    
+
                 <label for="cardholder">Korthafi:</label>
                 <input type="text" name="cardholder" id="cardholder" required>
-    
+
                 <div class="f__field__timi">
                   <label for="gildist">Gildistími:</label>
-                  <label for="Month">Mán</label>
-                  <select id="mán">
+                  <label for="gildist">Mán</label>
+                  <select id="gildist">
                     <option value="">01</option>
                     <option value="">02</option>
                     <option value="">03</option>
@@ -294,9 +294,9 @@
                     <option value="">11</option>
                     <option value="">12</option>
                   </select>
-    
+
                   <label for="year">Ár</label>
-                  <select id="ár">
+                  <select id="year">
                     <option value="">2018</option>
                     <option value="">2019</option>
                     <option value="">2020</option>
@@ -308,19 +308,19 @@
             </section>
         </div>
     </div>
-        
+
         <div class="pay">
-            <section class="field__buy">
+            <div class="field__buy">
               <button>Kaupa</button>
-            </section>
+            </div>
         </div>
       </div>
     </main>
     <footer class="footer">
-        <div class="footer__container"> 
+        <div class="footer__container">
           <nav class=footer__boxes>
             <div class="footer__box">
-              <h3 class="footer__headline">Vöruflokkar<h3>
+              <h3 class="footer__headline">Vöruflokkar</h3>
               <p class="footer__items">Nauðsynjavörur</p>
               <p class="footer__items">Frábærar vörur</p>
               <p class="footer__items">Ómissandi vörur</p>
@@ -328,7 +328,7 @@
               <p class="footer__items">Magnaðar vörur</p>
             </div>
             <div class="footer__box">
-              <h3 class="footer__headline">Vöruflokkar</p><h3>
+              <h3 class="footer__headline">Vöruflokkar</h3>
               <p class="footer__items">Trylltar vörur</p>
               <p class="footer__items">Geggjaðar vörur</p>
               <p class="footer__items">Svakalegar vörur</p>
@@ -336,13 +336,13 @@
               <p class="footer__items">Klikkaðar vörur</p>
             </div>
             <div class="footer__box">
-              <h3 class="footer__headline">Vöruflokkar<h3>
+              <h3 class="footer__headline">Vöruflokkar</h3>
               <p class="footer__items">Nýjar vörur</p>
               <p class="footer__items">Gamlar vörur</p>
               <p class="footer__items">Skrítnar vörur</p>
             </div>
             <div class="footer__box">
-              <h3 class="footer__headline">Síður<h3>
+              <h3 class="footer__headline">Síður</h3>
               <p class="footer__items">Allar vörur<p>
               <p class="footer__items">Starfsfólk<p>
               <p class="footer__items">Karfa<p>
