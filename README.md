@@ -1,4 +1,5 @@
-# Tools
+#Hópverkefni1
+## Tools
 
 Til að keyra:
 
@@ -12,4 +13,12 @@ Til að keyra stylelint
 ```bash
 npm run lint
 ````
+
+##Uppsetning verkefnis
+
+##Hópurinn
+
+##Verkefnalýsing
+
+> Útgáfa 0.2
 
