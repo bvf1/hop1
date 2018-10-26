@@ -40,15 +40,15 @@ Arndís Lilja Þórisdóttir ath216@hi.is
 Bára Valgerður Friðriksdóttir bvf1@hi.is
 
 ## Verkefnalýsing
-# Verkefnalýsing frá kennara
+- Verkefnalýsing frá kennara
 
-# Hópverkefni 1
+- Hópverkefni 1
 
 Verkefnið felst í því að smíða vef eftir forskrift.
 
 Gefnar eru [fyrirmyndir](utlit/) í `500px`, `800px` og `1500px` með grind ásamt `1500px` án grindar og yfirliti yfir virkni vefs í `utlit/video.mp4`.
 
-## Síður
+- Síður
 
 Gögn fyrir síður eru í viðeigandi textaskrám (t.d. forsida.txt) undir `efni/`. Myndir fyrir síður eru gefnar undir `img/`. Afrita þarf öll gögn á milli síðna, ekki er krafa um að setja upp sameiginlegan haus/fót á síðum með einhverju kerfi eða forritun.
 
@@ -71,13 +71,13 @@ Allar hreyfingar gerast á `300ms` með `ease-in-out` hröðunarfalli.
 
 Ekki þarf að útfæra neina virkni fyrir takka eða form.
 
-## Hópavinna
+- Hópavinna
 
 Verkefnið skal unnið í hóp með þremur einstaklingum. Hafið samband við kennara ef ekki er mögulegt að vinna í hóp.
 
 Notast skal við Git og GitHub. Engar zip skrár með kóða ættu að ganga á milli í hópavinnu, heldur á að „committa“ allan kóða og vinna gegnum Git.
 
-## Lýsing á verkefni
+- Lýsing á verkefni
 
 `README.md` skrá skal vera í rót verkefnis og innihalda:
 
@@ -86,7 +86,7 @@ Notast skal við Git og GitHub. Engar zip skrár með kóða ættu að ganga á 
 * Upplýsingar um alla sem unnu verkefni
 * Leyfilegt er að halda eftir þessari verkefnalýsingu en hún skal þá koma _á eftir_ ykkar lýsingu
 
-## Tæki og tól
+- Tæki og tól
 
 Setja skal upp Sass og stylelint fyrir verkefnið. Gefin er `styles.scss` skrá með grunn upplýsingum.
 
@@ -94,7 +94,7 @@ Gefin er `.stylelintrc` skrá sem segir til um hvernig lint fyrir `scss` skrár 
 
 Í `.gitignore` er `styles.css` hunsað sem þýðir að það verður _ekki_ checkað inn. Það er gert vegna þess að það er búið til af sass út frá `styles.scss`
 
-## Gefnar skrár
+- Gefnar skrár
 
 Eftirfarandi er sett upp í verkefni:
 
@@ -107,7 +107,7 @@ Eftirfarandi er sett upp í verkefni:
 
 Setja þarf upp `package.json` og sækja viðeigandi pakka til að tæki og tól sem verkefnið á að nýta virki.
 
-## Mat
+- Mat
 
 * 10% - `README` eftir forskrift, tæki og tól uppsett
 * 20% – Snyrtilegt, gilt (skv. stylelint) CSS/Sass, gilt og aðgengilegt HTML
@@ -117,11 +117,11 @@ Setja þarf upp `package.json` og sækja viðeigandi pakka til að tæki og tól
 * 10% – Um síða
 * 10% – Kaupa síða
 
-## Sett fyrir
+- Sett fyrir
 
 Verkefni sett fyrir í fyrirlestri mánudaginn 8. október 2018.
 
-## Skil
+- Skil
 
 Einn aðili úr hóp skal skila fyrir hönd allra og skila skal undir „Verkefni og hlutaprófa“ á Uglu í seinasta lagi fyrir lok dags föstudaginn 26. október 2018.
 
@@ -131,13 +131,13 @@ Skil skulu innihalda:
 * Slóð á GitHub repo fyrir verkefni, og dæmatímakennurum skal hafa verið boðið í repo ([sjá leiðbeiningar](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/)). Notendanöfn þeirra eru `arnar44`, `gorri4`, `mimiqkz`, `hinriksnaer`, `gunkol`, `freyrdanielsson` og `osk`
 * Slóð á verkefnið keyrandi á vefnum
 
-## Einkunn
+- Einkunn
 
 Sett verða fyrir tíu minni verkefni þar sem átta bestu gilda 3,5% hvert, samtals 28% af lokaeinkunn.
 
 Sett verða fyrir tvö stærri verkefni þar sem hvort um sig gildir 11%, samtals 22% af lokaeinkunn.
 
-## Myndir
+- Myndir
 
 Myndir frá:
 
