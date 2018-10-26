@@ -55,7 +55,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
   flex-direction: row;
-  
+  align-items: center;
+
 
   @media (min-width: 700px) {
     flex-direction: row;
