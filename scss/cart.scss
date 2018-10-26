@@ -1,3 +1,8 @@
+product-container {
+  display: flex;
+  flex-directon: column;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -28,7 +33,7 @@
     height: auto;
   }
 
-  &__vara{
+/*  &__vara{
     width: 66%;
 
     display: flex;
@@ -36,6 +41,7 @@
     justify-content: space-between;
     flex-direction: column;
   }
+  */
 }
 
 .field{
