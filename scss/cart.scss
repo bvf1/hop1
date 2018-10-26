@@ -50,27 +50,35 @@ product-container {
   }
   */
 }
-
-.field{
+.f {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  
 
   @media (min-width: 700px) {
     flex-direction: row;
   }
 
-  &__info {
+  &__field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    flex-direction: row;
+  }
+
+  &__field__info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
-    margin-right: 5%;
   }
 
-  &__info__timi {
+  &__field__timi {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
   }
 }
@@ -88,6 +96,5 @@ product-container {
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
-    margin-right: auto;
   }
 }

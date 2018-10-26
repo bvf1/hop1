@@ -1,0 +1,31 @@
+@import "scss/config";
+
+$font_family_1: 'Open Sans', helvetica, arial, sans-serif;
+$font_family_2: 'Oswald', Verdana, sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html { /* stylelint-disable-line */
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+  // TODO fleiri grunn stillingar
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+// TODO sækja allar sass skrár
+//@import "scss/...";
+
+//@import "scss/header";  
+
+//@import "scss/nav";
