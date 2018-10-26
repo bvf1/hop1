@@ -1,15 +1,17 @@
+$background_color_1: #cc9694;
+
 .card {
 	width: 100%;
 	max-width: 390px;
 	max-height: 645px;
 	margin-bottom: 20px;
 	padding: 5px;
-
+	
 	&__img {
-	  width: 390px;
-	  height: 385px;
-	} 
-
+		width: 390px;
+		height: 385px;
+	}
+	
 	&__box {
 		width: 62%;
 		height: 40px;
@@ -17,7 +19,6 @@
 		border-radius: 5px;
 		font-size: 14px;
 	}
-
 	&__button {
 		width: 32%;
 		height: 40px;
@@ -26,18 +27,20 @@
 		font-size: 14px;
 		&:hover {
 			border: #cc9694;
-			background-color: #cc9694;
+			background-color: $background_color_1;
 		}
 	}
 }
-@media (min-width: 700px) {
+
+@media (min-width: 800px) {
 	.cards {
 		display: flex;
+		flex: 1;
 		flex-flow: row wrap;
 		justify-content: space-around;
 	}
 }
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
 	.cards {
 		display: flex;
 		flex-flow: row wrap;
