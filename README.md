@@ -37,9 +37,9 @@ Við notuðum npm run dev til að keyra browser-sync og þýða scss skrárnar y
 
 ## Nemendur
 
-Arndís Lilja Þórisdóttir ath216@hi.is
-Ásdís Helga Hafdísardóttir ahh26@hi.is
-Bára Valgerður Friðriksdóttir bvf1@hi.is
+* Arndís Lilja Þórisdóttir ath216@hi.is
+* Ásdís Helga Hafdísardóttir ahh26@hi.is
+* Bára Valgerður Friðriksdóttir bvf1@hi.is
 
 ## Verkefnalýsing
 - Verkefnalýsing frá kennara
