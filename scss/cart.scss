@@ -73,7 +73,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
   flex-direction: row;
-  
+  align-items: center;
+
 
   @media (min-width: 700px) {
     flex-direction: row;
@@ -99,6 +100,7 @@
     justify-content: space-around;
     flex-direction: row;
   }
+
 }
 
 .pay{
@@ -115,17 +117,18 @@
     justify-content: space-between;
     flex-direction: column;
   }
-}
-.pay__buy {
-  font-size: 14px;
-  background-color: #cc9694;
-  border: 1.2px solid #cc9694;
-  border-radius: 5px;
-  text-align: center;
-  height: 44px;
-  &:hover {
-    background-color: #000000;
-    border: #000000;
-    color: #cc9694;
+  &__buy {
+    font-size: 14px;
+    background-color: #cc9694;
+    border: 1.2px solid #cc9694;
+    border-radius: 5px;
+    text-align: center;
+    height: 44px;
+      &:hover {
+        background-color: #000000;
+        border: #000000;
+        color: #cc9694;
+      }
+    }
   }
-}
+
