@@ -39,6 +39,24 @@
     width: 100%;
     height: auto;
   }
+  &__input {
+    height: 40px;
+		border: 1.2px solid #000000;
+		border-radius: 5px;
+		font-size: 14px;
+    }
+  &__button {
+    height: 40px;
+    border: 1.2px solid #000000;
+    border-radius: 5px;
+    font-size: 14px;
+      &:hover {
+        border: #cc9694;
+        background-color: $background_color_1;
+      }
+    }
+
+
 
 /*  &__vara{
     width: 66%;
@@ -96,5 +114,18 @@
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
+  }
+}
+.pay__buy {
+  font-size: 14px;
+  background-color: #cc9694;
+  border: 1.2px solid #cc9694;
+  border-radius: 5px;
+  text-align: center;
+  height: 44px;
+  &:hover {
+    background-color: #000000;
+    border: #000000;
+    color: #cc9694;
   }
 }
