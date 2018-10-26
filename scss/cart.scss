@@ -1,4 +1,4 @@
-product-container {
+.product-container {
   display: flex;
   flex-directon: column;
 }
@@ -18,7 +18,7 @@ product-container {
 .card {
   width: 100%;
   display: flex;
-  //flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: column;
 

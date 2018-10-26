@@ -1,0 +1,37 @@
+$color_1: #000000;
+$background_color_1: #ffffff;
+
+.staff__cards {
+	position: relative;
+	margin: 10px auto;
+	width: 430px;
+	height: 641px;
+	z-index: 1;
+}
+.staff__card {
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 300ms ease-in-out;
+	display: flex;
+	flex-direction: row;
+	&:hover {
+		transform: rotateY(180deg);
+		box-shadow: -5px 5px 5px #aaa;
+	}
+}
+.face {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+}
+.face.back {
+	display: block;
+	transform: rotateY(180deg);
+	box-sizing: border-box;
+	padding: 10px;
+	color: $color_1;
+	text-align: center;
+	background-color: $background_color_1;
+}
