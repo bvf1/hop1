@@ -9,6 +9,10 @@
 	  width: 390px;
 	  height: 385px;  
 	}
+	&__button {
+		border-radius: 4px;
+		padding: 20 px;
+	}
 }
 @media (min-width: 800px) {
 	.cards {

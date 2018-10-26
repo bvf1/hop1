@@ -1,4 +1,13 @@
 $gutter: 20px;
+$black: #000000;
+$white: #ffffff;
+$red: #cc9694;
+$yellow: #fcffd2;
+$green: #afb281;
+$blue: #cee8ff;
+$font_family_1: 'Open Sans', helvetica, arial, sans-serif;
+$font_family_2: 'Oswald', Verdana, sans-serif;
+
 @mixin col($width: 100%) {
   width: $width;
   padding-right: 10px;
@@ -10,8 +19,12 @@ $gutter: 20px;
   margin-left: auto;
 }
 
+.img--kerra {
+  width: 25px;
+}
+
 .header {
-  background-color: #afb281;
+  background-color: $green;
 
   &__container {
     display: flex;
@@ -26,7 +39,7 @@ $gutter: 20px;
     flex-direction: column;
     align-items: center;
 
-    @media (min-width: 1180px) {
+    @media (min-width: 1223px) {
       padding: 0;
       margin-right: auto;
       margin-left: auto;
@@ -35,6 +48,7 @@ $gutter: 20px;
 
   &__headline {
     margin: auto;
+    font-family: $font_family_1;
     font-size: 60px;
   }
 
@@ -67,6 +81,7 @@ $gutter: 20px;
   &__basket {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 
     @media (min-width: 700px) {
       width: 25%;
@@ -77,5 +92,16 @@ $gutter: 20px;
     padding-right: ($gutter * 0.5);
     padding-left: ($gutter * 0.5);
     font-size: 21px;
+    //color: $black;
+    //text-decoration: none;
+
+    &:hover {
+      color: $yellow;
+      transition: color 300ms ease-in-out;
+    }
+
+    &--underline {
+      text-decoration: underline;
+    }
   }
 }
