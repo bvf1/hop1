@@ -11,8 +11,6 @@ $vw: 70vw;
 }
 
 .start {
-  
-
   &__container {
     display: flex;
     padding-top: $gutter;
@@ -20,7 +18,7 @@ $vw: 70vw;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
     @media (min-width: 700px) {
       flex-direction: row;
     }
@@ -33,7 +31,6 @@ $vw: 70vw;
     display: flex;
     width: 100%;
     min-height: 67vw;
-
     margin-top: 40px;
     font-size: 24px;
     flex-direction: column;
@@ -56,15 +53,14 @@ $vw: 70vw;
     @media (min-width: 1200px) {
       width: 50%;
       min-height: 0;
-      padding-right: 10px;
-      padding-left: 10px;
-      //margin: 10px auto;
+      padding-right: $gutter * 0.5;
+      padding-left: $gutter * 0.5;
     }
 
     &:nth-child(odd) {
       padding-left: $gutter;
       @media (min-width: 700px) {
-        padding: 0 20px $gutter;
+        padding: 0 $gutter $gutter;
       }
 
       @media (min-width: 1000px) {
@@ -74,7 +70,6 @@ $vw: 70vw;
       }
       @media (min-width: 1220px) {
         height: 230px;
-        //align-self: center;
         padding-left: $gutter * 0.5;
       }
     }
