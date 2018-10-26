@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="../styles.scss">
+    <link rel="stylesheet" href="../styles.css">
   </head>
   <body>
         <header class="header">
@@ -17,7 +17,7 @@
                   <nav class="header__nav">
                     <div class="header__pages">
                             <a class="header__nav-items" href="../index.html">FORSÍÐA</a>
-                            <a class="header__nav-items" href="pages/products.html">VÖRUR</a>
+                            <a class="header__nav-items" href="products.html">VÖRUR</a>
                             <a class="header__nav-items" href="staff.html">STARFSFÓLK</a>
                     </div>
                     <div class="header__basket">
@@ -35,7 +35,7 @@
                   <div>
                     <h2 class="card__headline">Ótrúlegt úr</h2>
                     <div>
-                      <img src="../img/watch.jpg" alt="watch">
+                      <img class="card__img" src="../img/watch.jpg" alt="watch">
                     </div>
                     <p>Hvað er klukkan? þetta úr mun svara því hvenær sem er.</p>
                     <p>99.900 kr.-</p>
@@ -50,7 +50,7 @@
                   <div>
                     <h2>Hágæða heyrnatól</h2>
                     <div>
-                      <img src="../img/headphones.jpg" alt="headphones">
+                      <img class="card__img" src="../img/headphones.jpg" alt="headphones">
                     <p>Þú munt ekki heyra neitt nema hágæða tónlist með þessum hágæða heyrnatólum.  Höfum við minnst á að þau eru hágæða?</p>
                     <p>39.999 kr.-</p>
                     <label for="fjoldi">Fjöldi:<label>
@@ -62,7 +62,7 @@
 
 
                   <div class="field">
-                    <section class="card">
+                    <section class="card__info">
                       <h2>Sendingarupplýsingar</h2>
                       <label for="name">Nafn:</label>
                       <input type="text" name="name" id="name" required>
@@ -259,7 +259,7 @@
                   </div>
 
                   <div class="field">
-                    <section class="card">
+                    <section class="card__info">
                       <h2>Greiðsluupplýsingar</h2>
                       <label for="cardno">Kortanúmer:</label>
                       <input type="number" name="cardno" id="cardno" required>
@@ -294,7 +294,7 @@
                           <option value="">2023</option>
                         </select>
                       </section>
-                      <section class="card">
+                      <section class="card__buy">
                         <button>Kaupa</button>
                       </section>
                     </div>
@@ -302,40 +302,40 @@
 
 
                 </main>
-                <footer class="footer">
-                        <div class="footer__container">
-                          <nav class=footer__boxes>
-                            <div class="footer__box">
-                              <h3 class="footer__headline">Vöruflokkar<h3>
-                              <p class="footer__items">Nauðsynjavörur</p>
-                              <p class="footer__items">Frábærar vörur</p>
-                              <p class="footer__items">Ómissandi vörur</p>
-                              <p class="footer__items">Ótrúlegar vörur</p>
-                              <p class="footer__items">Magnaðar vörur</p>
-                            </div>
-                            <div class="footer__box">
-                              <h3 class="footer__headline">Vöruflokkar</p><h3>
-                              <p class="footer__items">Trylltar vörur</p>
-                              <p class="footer__items">Geggjaðar vörur</p>
-                              <p class="footer__items">Svakalegar vörur</p>
-                              <p class="footer__items">Fáránlegar vörur</p>
-                              <p class="footer__items">Klikkaðar vörur</p>
-                            </div>
-                            <div class="footer__box">
-                              <h3 class="footer__headline">Vöruflokkar<h3>
-                              <p class="footer__items">Nýjar vörur</p>
-                              <p class="footer__items">Gamlar vörur</p>
-                              <p class="footer__items">Skrítnar vörur</p>
-                            </div>
-                            <div class="footer__box">
-                              <h3 class="footer__headline">Síður<h3>
-                              <p class="footer__items">Allar vörur<p>
-                              <p class="footer__items">Starfsfólk<p>
-                              <p class="footer__items">Karfa<p>
-                            </div>
-                          </nav>
-                          <p class="footer__copyright">© 2018 Vöruhúsið</p>
-                        </div>
-                      </footer>
-                    </body>
-                    </html>
+    <footer class="footer">
+      <div class="footer__container">
+        <nav class=footer__boxes>
+          <div class="footer__box">
+            <h3 class="footer__headline">Vöruflokkar<h3>
+            <p class="footer__items">Nauðsynjavörur</p>
+            <p class="footer__items">Frábærar vörur</p>
+            <p class="footer__items">Ómissandi vörur</p>
+            <p class="footer__items">Ótrúlegar vörur</p>
+            <p class="footer__items">Magnaðar vörur</p>
+          </div>
+          <div class="footer__box">
+            <h3 class="footer__headline">Vöruflokkar</p><h3>
+            <p class="footer__items">Trylltar vörur</p>
+            <p class="footer__items">Geggjaðar vörur</p>
+            <p class="footer__items">Svakalegar vörur</p>
+            <p class="footer__items">Fáránlegar vörur</p>
+            <p class="footer__items">Klikkaðar vörur</p>
+          </div>
+          <div class="footer__box">
+            <h3 class="footer__headline">Vöruflokkar<h3>
+            <p class="footer__items">Nýjar vörur</p>
+            <p class="footer__items">Gamlar vörur</p>
+            <p class="footer__items">Skrítnar vörur</p>
+          </div>
+          <div class="footer__box">
+            <h3 class="footer__headline">Síður<h3>
+            <p class="footer__items">Allar vörur<p>
+            <p class="footer__items">Starfsfólk<p>
+            <p class="footer__items">Karfa<p>
+          </div>
+        </nav>
+        <p class="footer__copyright">© 2018 Vöruhúsið</p>
+      </div>
+    </footer>
+  </body>
+  </html>

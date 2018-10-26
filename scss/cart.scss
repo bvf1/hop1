@@ -1,0 +1,29 @@
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  &__img{
+    width: 100%;
+    height: auto;
+  }
+
+  &__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__buy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+
+
+}
