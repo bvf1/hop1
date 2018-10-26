@@ -1,5 +1,4 @@
-# Tools
-
+#Tools
 Til að keyra:
 
 ```bash
@@ -12,4 +11,5 @@ Til að keyra stylelint
 ```bash
 npm run lint
 ````
+
 

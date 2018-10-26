@@ -3,25 +3,25 @@ $font_family_2: 'Oswald', Verdana, sans-serif;
 $color_1: #000000;
 $background_color_1: #ffffff;
 	
-	#f1_container {
+	.staff__cards {
 		position: relative;
 		margin: 10px auto;
-		width: 430px;
-		height: 641px;
+		max-width: 430px;
+		max-height: 641px;
 		z-index: 1;
-		perspective: 1000;
-		&:hover {
-			#f1_card {
-				transform: rotateY(180deg);
-				box-shadow: -5px 5px 5px #aaa;
-			}
-		}
+		display: flex;
+		flex-direction: column;
+	
 	}
-	#f1_card {
+	.staff__card {
 		width: 100%;
 		height: 100%;
 		transform-style: preserve-3d;
 		transition: all 1.0s linear;
+		&:hover {
+			transform: rotateY(180deg);
+			box-shadow: -5px 5px 5px #aaa;
+			}
 	}
 	.face {
 		position: absolute;

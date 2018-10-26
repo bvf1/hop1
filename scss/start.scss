@@ -4,13 +4,21 @@ $vw: 70vw;
 .image {
   max-width: 100%;
 }
-
-.button {
-  width: 66.66%;
-  height: 44px;
-}
-
 .start {
+  &__button {
+    font-size: 14px;
+    background-color: #cc9694;
+    border: 1.2px solid #cc9694;
+    border-radius: 5px;
+    text-align: center;
+    height: 44px;
+    &:hover {
+      background-color: #000000;
+      border: #000000;
+      color: #cc9694;
+    }
+  }
+
   &__container {
     display: flex;
     padding-top: $gutter;
