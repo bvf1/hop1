@@ -38,4 +38,11 @@ $background_color_1: #ffffff;
 		text-align: center;
 		background-color: $background_color_1;
 	}
+	@media (min-width: 800px) {
+		#f1_card {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-around;
+		}
+	}
 
