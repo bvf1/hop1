@@ -14,14 +14,14 @@
 		padding: 20 px;
 	}
 }
-@media (min-width: 800px) {
+@media (min-width: 700px) {
 	.cards {
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-around;
 	}
 }
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
 	.cards {
 		display: flex;
 		flex-flow: row wrap;
