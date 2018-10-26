@@ -9,12 +9,13 @@ $background_color_1: #ffffff;
 		width: 430px;
 		height: 641px;
 		z-index: 1;
-		perspective: 1000;
-		&:hover {
-			#f1_card {
-				transform: rotateY(180deg);
-				box-shadow: -5px 5px 5px #aaa;
-			}
+		//perspective: 1000;
+		display: flex;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
 		}
 	}
 	#f1_card {
@@ -22,6 +23,11 @@ $background_color_1: #ffffff;
 		height: 100%;
 		transform-style: preserve-3d;
 		transition: all 1.0s linear;
+		&:hover {
+			#f1_card {
+				transform: rotateY(180deg);
+				box-shadow: -5px 5px 5px #aaa;
+			}
 	}
 	.face {
 		position: absolute;
