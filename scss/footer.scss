@@ -1,4 +1,5 @@
 $gutter: 20px;
+$font_family_1: 'Open Sans', helvetica, arial, sans-serif;
 
 .footer {
   background-color: #cc9694;
@@ -24,17 +25,22 @@ $gutter: 20px;
   }
 
   &__box {
+    display: flex;
     width: 50%;
-    padding: $gutter ($gutter * 0.5);
+    padding: $gutter $gutter * 0.5;
+    flex-direction: column;
 
     @media (min-width: 1200px) {
       width: 25%;
     }
   }
 
-  &__copyright {
-    align-self: center;
-    padding: $gutter;
+  &__headline {
+    font-family: $font_family_1;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 3;
+    //text-decoration: none;
   }
 
   &__items {
@@ -42,7 +48,8 @@ $gutter: 20px;
     color: #fcffd2;
   }
 
-  &__headline {
-    line-height: 3;
+  &__copyright {
+    align-self: center;
+    padding: $gutter;
   }
 }
